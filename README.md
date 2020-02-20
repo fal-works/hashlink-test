@@ -1,3 +1,5 @@
+Collection of test/sandbox workspaces.
+
 ## Environment
 
 ### Haxe & Hashlink versions
