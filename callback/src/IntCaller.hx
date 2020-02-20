@@ -10,7 +10,7 @@ class IntCaller {
 		return result;
 	}
 
-	public static function forEach(array:Array<Int>, callback:Int->Void)
+	public static function forEach(array:Array<Int>, callback:Int->Int)
 		for (i in 0...array.length)
 			callback(array[i]);
 
