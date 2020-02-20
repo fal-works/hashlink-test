@@ -1,0 +1,3 @@
+-cp src
+-hl out/hl/main.hl
+-main Main

@@ -1,0 +1,16 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "HashLink (HL/JIT)",
+			"request": "launch",
+			"type": "hl",
+			"hxml": "hl-jit.hxml",
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": {
+				"type": "hxml",
+				"file": "hl-jit.hxml"
+			}
+		}
+	]
+}

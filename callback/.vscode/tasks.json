@@ -1,0 +1,21 @@
+{
+// tasks.json 形式の詳細についての資料は、
+    // https://go.microsoft.com/fwlink/?LinkId=733558 をご覧ください
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "haxe",
+            "args": "active configuration",
+            "problemMatcher": [
+                "$haxe-absolute",
+                "$haxe",
+                "$haxe-error",
+                "$haxe-trace"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
