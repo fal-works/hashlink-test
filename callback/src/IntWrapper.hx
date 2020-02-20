@@ -5,7 +5,7 @@ class IntWrapper {
 	public static dynamic function tripleDynamic(object:IntWrapper)
 		object.value *= 3;
 
-	public static final tripleVar = (object:IntWrapper) -> triple;
+	public static final tripleVar = triple;
 
 	public static function call(value:IntWrapper, callback:IntWrapper->Void)
 		callback(value);
