@@ -1,0 +1,4 @@
+-cp src
+-lib sneaker
+-D sneaker_assertion_disable
+-main Main
