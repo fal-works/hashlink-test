@@ -1,4 +1,12 @@
--cp src
+# Common Build arguments
+
 -lib sneaker
--D sneaker_assertion_disable
 -main Main
+# -D sneaker_log_level=200
+# -D sneaker_assertion_print_success
+# -D sneaker_assertion_disable
+# -D sneaker_assertion_show_compilation
+# -D sneaker_tagged_disable
+# -D sneaker_print_disable
+# -D sneaker_string_buffer_length_check_disable
+# -D sneaker_print_buffer_disable

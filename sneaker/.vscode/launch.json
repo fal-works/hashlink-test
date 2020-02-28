@@ -8,6 +8,13 @@
 			"hxml": "hl-jit.hxml",
 			"cwd": "${workspaceRoot}",
 			"preLaunchTask": "Build HL/JIT"
+		},
+		{
+			"name": "Test Eval",
+			"request": "launch",
+			"type": "haxe-eval",
+			"args": ["eval.hxml"],
+			"cwd": "${workspaceRoot}"
 		}
 	]
 }
