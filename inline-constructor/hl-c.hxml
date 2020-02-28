@@ -1,0 +1,4 @@
+-cp src
+-hl out/c/main.c
+-main Main
+-D ASSERTION_NO_ASSERT
